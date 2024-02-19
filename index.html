@@ -1,13 +1,157 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Jutsu</title>
+</head>
+
+<body class="bg-dark">
+
+  <!-- <div class="h-[400px] w-[400px] rounded-full bg-gradient-to-bl to-orange-500 from-dark blur-lg absolute left-0">
+
+  </div> -->
+
+  <header class="mt-4 bg-w-white/5 py-4 rounded-lg flex items-center justify-between z-20 container mx-auto px-16">
+    <div class="flex items-center justify-center gap-16">
+      <h3 class="text-white font-bold text-2xl"><a href="">CODE JUTSU</a></h3>
+      <div class="bg-gray-400 h-5 w-[2px]"></div>
+      <ul class="flex items-center text-white gap-16">
+        <li class="text-md hover:text-blue-sky"><a href="" class="">Home</a></li>
+        <li class="text-md hover:text-blue-sky"><a href="" class="">Courses</a></li>
+        <li class="text-md hover:text-blue-sky"><a href="" class="">Forum</a></li>
+        <li class="text-md hover:text-blue-sky"><a href="" class="">Blog</a></li>
+      </ul>
+    </div>
+
+    <form action="" method="get">
+      <div class="bg-white rounded-md p-2 w-[250px]">
+        <input type="search" name="q" id="q" placeholder="Search..." class="w-full outline-none border-none px-2">
+      </div>
+    </form>
+  </header>
+
+
+  <!-- banner  -->
+  <section class="text-white h-[80vh] grid grid-cols-2 items-center gap-6 z-20 container mx-auto px-16">
+    <div>
+      <h1 class="text-5xl mb-6">Expertise en<br>
+        Programmation et <br>
+        Design à <span class="text-orange-500">Votre Service</span></h1>
+      <p>Découvrez l’excellence en programmation et design avec
+        notre équipe dévouée. Nous sommes là pour concrétiser
+        vos idées les plus audacieuses. Que vous ayez besoin
+        d’un site web dynamique, d’une application élégante ou
+        d’une identité visuelle distinctive, nous sommes prêts à
+        mettre en œuvre notre savoir-faire pour transformer votre
+        vision en réalité. Explorez nos services et laissez-nous
+        être le catalyseur de votre succès numérique.</p>
+
+      <div class="mt-6 flex gap-4">
+        <button type="button"><a href=""
+            class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">demander un
+            avis</a></button>
+        <button type="button"><a href=""
+            class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">obtenir plus
+            d'info</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="./public/web-development-web-developer-web-design-web-development-374745217f3abc548dc36cd1cd380ec5.png"
+        alt="">
+    </div>
+  </section>
+
+
+  <!-- members -->
+  <section class="">
+    <h3 class="text-3xl text-white text-center mb-6">Nos Membres</h3>
+    <div class="bg-black p-6 grid grid-cols-4 gap-4">
+
+      <article class="text-white bg-dark p-4 rounded-md">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="h-16 w-16 bg-orange-500 rounded-full"></div>
+          <div>
+            <h3>ZGenius Matondo</h3>
+            <h4>CEO</h4>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta molestias, quia ea reprehenderit libero
+            ad?
+          </p>
+        </div>
+
+      </article>
+
+      <article class="text-white bg-dark p-4 rounded-md">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="h-16 w-16 bg-orange-500 rounded-full"></div>
+          <div>
+            <h3>ZGenius Matondo</h3>
+            <h4>CEO</h4>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta molestias, quia ea reprehenderit libero
+            ad?
+          </p>
+        </div>
+
+      </article>
+
+      <article class="text-white bg-dark p-4 rounded-md">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="h-16 w-16 bg-orange-500 rounded-full"></div>
+          <div>
+            <h3>ZGenius Matondo</h3>
+            <h4>CEO</h4>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta molestias, quia ea reprehenderit libero
+            ad?
+          </p>
+        </div>
+
+      </article>
+
+      <article class="text-white bg-dark p-4 rounded-md">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="h-16 w-16 bg-orange-500 rounded-full"></div>
+          <div>
+            <h3>ZGenius Matondo</h3>
+            <h4>CEO</h4>
+          </div>
+        </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta molestias, quia ea reprehenderit libero
+            ad?
+          </p>
+        </div>
+
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- services -->
+  <section>
+
+  </section>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
