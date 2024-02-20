@@ -35,9 +35,9 @@
 
 
   <!-- banner  -->
-  <section class="text-white h-[80vh] grid grid-cols-2 items-center gap-6 z-20 container mx-auto px-16">
-    <div>
-      <h1 class="text-5xl mb-6">Expertise en<br>
+  <section class="text-white h-[80vh] grid lg:grid-cols-2 items-center gap-6 z-20 container mx-auto lg:px-16 px-4">
+    <div class="text-center lg:text-start">
+      <h1 class="lg:text-5xl text-4xl mb-6 text-center lg:text-start">Expertise en<br>
         Programmation et <br>
         Design à <span class="text-orange-500">Votre Service</span></h1>
       <p>Découvrez l’excellence en programmation et design avec
@@ -49,16 +49,18 @@
         vision en réalité. Explorez nos services et laissez-nous
         être le catalyseur de votre succès numérique.</p>
 
-      <div class="mt-6 flex gap-4">
+      <div class="mt-6 flex gap-4 justify-center lg:justify-start">
         <button type="button"><a href=""
-            class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">demander un
+            class="bg-orange-500 text-white py-3 px-4 text-sm lg:text-md rounded-full uppercase hover:bg-opacity-80">demander
+            un
             avis</a></button>
         <button type="button"><a href=""
-            class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">obtenir plus
+            class="bg-orange-500 text-white py-3 px-4 text-sm lg:text-md rounded-full uppercase hover:bg-opacity-80">obtenir
+            plus
             d'info</a></button>
       </div>
     </div>
-    <div>
+    <div class="hidden lg:block">
       <img src="./public/web-development-web-developer-web-design-web-development-374745217f3abc548dc36cd1cd380ec5.png"
         alt="">
     </div>
@@ -67,7 +69,7 @@
 
   <!-- members -->
   <section class="">
-    <h3 class="text-3xl text-white text-center mb-6">Nos Membres</h3>
+    <h3 class="lg:text-3xl text-2xl text-white text-center mb-6">Nos Membres</h3>
     <div class="bg-black p-6 grid grid-cols-4 gap-4">
 
       <article class="text-white bg-dark p-4 rounded-md">
@@ -147,9 +149,9 @@
 
 
   <!-- services -->
-  <section class="text-center text-white container mx-auto my-20">
-    <h3 class="text-3xl mb-8">Nos Services</h3>
-    <div class="grid grid-cols-3 gap-6">
+  <section class="text-center text-white container mx-auto my-20 px-4 lg:px-0">
+    <h3 class="lg:text-3xl text-2xl mb-8">Nos Services</h3>
+    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
 
       <article class="bg-black p-6 h-[400px] rounded-md text-center flex items-center justify-center flex-col">
         <div class="h-20 w-20 bg-orange-500 text-center"></div>
@@ -186,14 +188,14 @@
 
 
   <!-- about  -->
-  <section class="container mx-auto px-16 grid lg:grid-cols-2 items-center text-white gap-6 mt-40">
-    <div>
+  <section class="container mx-auto lg:px-16 px-4 grid lg:grid-cols-2 items-center text-white gap-6 lg:mt-40">
+    <div class="flex justify-center lg:mb-0 mb-8">
       <img
         src="./public/digital-marketing-marketing-strategy-inbound-marketing-school-courses-d259a6acfefcf19803788029737a9c10.png"
         alt="">
     </div>
-    <div>
-      <h3 class="text-3xl mb-4 font-bold">A-propos de Code Jutsu</h3>
+    <div class="text-center lg:text-start">
+      <h3 class="lg:text-3xl text-2xl mb-4 font-bold">A-propos de Code Jutsu</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam minima ratione sequi officia saepe eius
         accusantium cumque sapiente. Deleniti quo quasi blanditiis tempora sequi a architecto recusandae esse illum vero
         ratione quae sunt ipsum odit cum ex quod, consequatur unde? Quisquam iusto id aperiam. Debitis provident et
@@ -204,10 +206,10 @@
   </section>
 
   <!-- courses  -->
-  <section class="container mx-auto px-16 my-40">
+  <section class="container mx-auto lg:px-16 px-4 lg:my-40 my-20">
     <h3 class="text-white text-center text-3xl mb-8">Nos Formations</h3>
 
-    <div class="lg:grid grid-cols-3 gap-6 items-start">
+    <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-6 lg:items-start">
       <article class="bg-black rounded-md overflow-hidden">
 
         <div class="bg-orange-500 w-full h-52"></div>
@@ -217,7 +219,7 @@
           <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores suscipit illo provident sunt
             necessitatibus ea eligendi, obcaecati quidem quam a voluptate ex maiores cum illum minima sint, enim,
             excepturi accusamus architecto? Reiciendis</p>
-            <button type="button" class="mt-6"><a href=""
+          <button type="button" class="mt-6"><a href=""
               class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">Commencer</a></button>
         </div>
 
@@ -232,7 +234,7 @@
           <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores suscipit illo provident sunt
             necessitatibus ea eligendi, obcaecati quidem quam a voluptate ex maiores cum illum minima sint, enim,
             excepturi accusamus architecto? Reiciendis</p>
-            <button type="button" class="mt-6"><a href=""
+          <button type="button" class="mt-6"><a href=""
               class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">Commencer</a></button>
         </div>
 
@@ -247,13 +249,68 @@
           <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores suscipit illo provident sunt
             necessitatibus ea eligendi, obcaecati quidem quam a voluptate ex maiores cum illum minima sint, enim,
             excepturi accusamus architecto? Reiciendis</p>
-            <button type="button" class="mt-6"><a href=""
+          <button type="button" class="mt-6"><a href=""
               class="bg-orange-500 text-white py-3 px-4 rounded-full uppercase hover:bg-opacity-80">Commencer</a></button>
         </div>
 
       </article>
     </div>
   </section>
+
+
+  <footer>
+
+    <!-- nav -->
+    <div class="border-b pb-6">
+      <div class="flex items-center justify-between container mx-auto px-16">
+        <h3 class="text-white text-3xl font-bold hidden lg:block">Code Jutsu</h3>
+        <ul class="flex items-center text-white gap-16">
+          <li class="text-md hover:text-orange-500"><a href="" class="">Home</a></li>
+          <li class="text-md hover:text-orange-500"><a href="" class="">Courses</a></li>
+          <li class="text-md hover:text-orange-500"><a href="" class="">Forum</a></li>
+          <li class="text-md hover:text-orange-500"><a href="" class="">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="container mx-auto px-16 text-white py-8 grid lg:grid-cols-3 gap-4">
+
+      <div>
+        <ul>
+          <li>
+            <address>
+              204, Genius street
+              Kinshasa/Ndjili
+            </address>
+          </li>
+          <li><a href="tel:+243826861073">+243 826 861 073</a></li>
+          <li><a href="tel:+243858634846">+243 858 634 846</a></li>
+          <li><a href="mailto:codejustsu@contact.com">codejustsu@contact.com</a></li>
+        </ul>
+      </div>
+
+      <ul>
+        <li><a href="" class="hover:text-orange-500">Evenements</a></li>
+        <li><a href="" class="hover:text-orange-500">Encourager l'equipe</a></li>
+        <li><a href="" class="hover:text-orange-500">Termes & Conditions</a></li>
+        <li><a href="" class="hover:text-orange-500">Politique de confidentialites</a></li>
+      </ul>
+
+      <form action="" method="post">
+        <div class="relative z-0 w-full mb-5 group">
+          <input type="email" name="email" id="email"
+            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue focus:outline-none focus:ring-0 focus:border-teal peer"
+            placeholder=" " required />
+          <label for="password"
+            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-orange-600 peer-focus:dark:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Addresse
+            email</label>
+
+        </div>
+        <button type="submit" class="bg-black py-2 px-4 rounded-full">send</button>
+      </form>
+    </div>
+  </footer>
 
   <script type="module" src="/src/main.ts"></script>
 </body>
